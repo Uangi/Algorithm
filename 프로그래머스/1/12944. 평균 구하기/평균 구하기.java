@@ -7,7 +7,6 @@ class Solution {
         for(int num : arr) {
             sum += num;
         }
-        answer = (double)sum / sol;
-        return answer;
+        return (double)sum / sol;
     }
 }
