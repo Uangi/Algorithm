@@ -1,4 +1,4 @@
-![접근 1](https://github.com/user-attachments/assets/94a6450f-71a6-4fcd-b70e-904318abb3a0)# [level 1] 문자열 내 p와 y의 개수 - 12916 
+# [level 1] 문자열 내 p와 y의 개수 - 12916 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12916#) 
 
