@@ -48,8 +48,8 @@
       </table>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
-
-- 오늘의 회고
+---
+## 오늘의 회고
 > - 어떤 문제가 있었는지<br/>
   ![에러 1](https://github.com/user-attachments/assets/e549429c-f5e9-4928-bcb8-4acad581ae4b)
 
