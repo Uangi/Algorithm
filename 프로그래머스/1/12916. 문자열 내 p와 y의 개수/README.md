@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 68.2 MB, 시간: 0.06 ms
+메모리: 75.2 MB, 시간: 0.06 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 07월 24일 12:15:52
+2024년 07월 25일 19:59:51
 
 ### 문제 설명
 
@@ -62,22 +62,3 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
- ---
-## 오늘의 회고
-> - 어떤 문제가 있었는지<br/>
-  ![에러 확인](https://github.com/user-attachments/assets/5890f661-6c33-48b6-9326-abc665c0cea3)
-분명 테스트를 전부 통과했지만 채점 시 반은 실패하고 반은 성공해서 다시 풀게되었다.
-
-  ---
->  - 어떻게 해결했는지<br/>
-  ![찐성공](https://github.com/user-attachments/assets/4ce2dd3b-0b6d-4c9d-b6a7-be03d6579034)
-
-코드를 처음부터 확인해보니 String s를 대문자로 변환해서 str에 대입해놓고 정작 문자 배열로 바꿀땐 str.toCharArray()가 아닌 s.toCharArray()로 사용하고있었다.
-
-  ---
-  - 무엇을 새롭게 알았는지<br/>
-        레벨이 낮은 알고리즘 문제는 웬만하면 거의 한 줄로 정리되는 것 같다.
-    그러나 count 측정 시 for문이나 정규식으로 하는 것보다 훨씬 느리다고 하는데 꼭 간결함만이 답은 아닌 것 같다.<br/>
-        return s.chars().filter( e -> 'P'== e).count() == s.chars().filter( e -> 'Y'== e).count();
-    
-  --- 
