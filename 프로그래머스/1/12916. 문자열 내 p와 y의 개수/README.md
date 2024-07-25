@@ -70,7 +70,8 @@
 
   ---
 >  - 어떻게 해결했는지<br/>
-  ![해결](https://github.com/user-attachments/assets/17563242-687b-430c-bddd-7fdbc2669c1c)
+  ![찐성공](https://github.com/user-attachments/assets/4ce2dd3b-0b6d-4c9d-b6a7-be03d6579034)
+
 코드를 처음부터 확인해보니 String s를 대문자로 변환해서 str에 대입해놓고 정작 문자 배열로 바꿀땐 str.toCharArray()가 아닌 s.toCharArray()로 사용하고있었다.
 
   ---
